@@ -38,27 +38,27 @@ export const Curriculum = () => {
       <Row as="ul" className="p-4">
         <Col as="li" md="4" className="imagen-descarga">
           <img src="img/yo.png" alt="img" className="img-cv" />
-          <div className="linkedin-descarga">
-            <a
-              href="descarga/cv.pdf"
-              className="btn descarga"
-              download="Curriculum Jose Maria Zamora Perez"
-            >
-              Descargar curriculum
-            </a>{" "}
+          <a
+            href="descarga/cv.pdf"
+            className="btn descarga"
+            download="Curriculum Jose Maria Zamora Perez"
+          >
+            Descargar curriculum
+          </a>{" "}
+          <div className="webs-descarga">
             <a
               href="https://es.linkedin.com/in/jose-maria-zamora?trk=profile-badge"
               target="_blank"
               rel="noreferrer"
             >
-              <GrLinkedin className="linkedin" />
+              <GrLinkedin className="webs" />
             </a>
             <a
-              href="https://es.linkedin.com/in/jose-maria-zamora?trk=profile-badge"
+              href="https://github.com/josemariaz1995"
               target="_blank"
               rel="noreferrer"
             >
-              <GrGithub className="linkedin" />
+              <GrGithub className="webs" />
             </a>
           </div>
         </Col>
