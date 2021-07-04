@@ -154,7 +154,7 @@ li {
   font-size: 30px;
 }
 .img-cv {
-  max-width: 250px;
+  max-width: 200px;
   margin-bottom: 15px;
   border-radius: 50%;
   box-shadow: var(--sombra);
@@ -188,15 +188,23 @@ li {
 .conocimientos .progress-bar {
   background-color: var(--verde);
 }
-.linkedin {
+.webs {
   font-size: 30px;
 }
-.linkedin-descarga {
+.webs-descarga {
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
 }
-.linkedin-descarga a {
+.webs-descarga a {
   margin-right: 5px;
+  color: var(--azul);
+}
+.webs-descarga a:nth-child(2):hover {
+  color: rgb(70, 67, 67);
+}
+.webs-descarga a:first-child:hover {
+  color: rgb(29, 29, 235);
 }
